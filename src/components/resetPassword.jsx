@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 const backendInstance = axios.create({
-  baseURL: "https://forgotpasswordbackend-k0eg.onrender.com/",
+  baseURL: "https://forgotpasswordfrontend.onrender.com",
   timeout: 5000,
 });
 
