@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 const backendInstance = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://forgotpasswordbackend-k0eg.onrender.com",
   timeout: 5000,
 });
 const ForgotPassword = () => {
